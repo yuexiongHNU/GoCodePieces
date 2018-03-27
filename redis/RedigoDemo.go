@@ -41,7 +41,6 @@ func main() {
 	}*/
 	// GET LIST METHOD 2
 	var v2,v3,v4,v5,v6,v7 string
-	// var vn []interface{}
 	redis.Scan(values, &v2, &v3, &v4, &v5, &v6, &v7)
 	fmt.Printf("GET FROM LIST: %s %s %s %s %s %s \n", v2, v3, v4, v5, v6, v7)
 
