@@ -79,6 +79,7 @@ func checkError(err error) {
 	}
 }
 
+// SUBSCRIBE
 func subscribe(channel string)  {
 	// New connection
 	c, err := redis.Dial("tcp", "[ip]:6379")
